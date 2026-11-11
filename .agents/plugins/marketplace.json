@@ -1,0 +1,20 @@
+{
+  "name": "gpt-tools-marketplace",
+  "interface": {
+    "displayName": "GPT Tools Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "gpt-c92da7b76dbf0115523145f4d885ed91",
+      "source": {
+        "source": "local",
+        "path": "./plugins/srt-repair"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

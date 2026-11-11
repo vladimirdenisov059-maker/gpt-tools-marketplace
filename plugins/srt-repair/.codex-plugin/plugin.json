@@ -1,0 +1,47 @@
+{
+  "author": {
+    "name": "Nikita Vlaznev"
+  },
+  "description": "Просто вставьте SRT файл и пуск. Можете описат свои пожелания ( не обязательно)",
+  "interface": {
+    "capabilities": [
+      "skills"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Исправь этот SRT для формата 16:9.",
+      "Адаптируй эти субтитры для вертикального видео 9:16.",
+      "Проверь SRT на ошибки для формата 1:1."
+    ],
+    "developerName": "Nikita Vlaznev",
+    "displayName": "РЕМОНТ SRT файлов",
+    "longDescription": "Помогает исправлять структуру и таймкоды SRT, редактировать и переводить субтитры, адаптировать их к форматам кадра 16:9, 1:1 и 9:16. При невозможности точно восстановить повреждённые таймкоды предлагает варианты дальнейшей обработки.",
+    "shortDescription": "Ремонт и адаптация SRT",
+    "logo": "./assets/icon.png",
+    "composerIcon": "./assets/icon.png",
+    "websiteURL": "https://srt-repair-support-nv.nikita-dto.chatgpt.site/",
+    "supportURL": "https://srt-repair-support-nv.nikita-dto.chatgpt.site/#support",
+    "privacyPolicyURL": "https://srt-repair-support-nv.nikita-dto.chatgpt.site/#privacy",
+    "termsOfServiceURL": "https://srt-repair-support-nv.nikita-dto.chatgpt.site/#terms"
+  },
+  "name": "gpt-c92da7b76dbf0115523145f4d885ed91",
+  "skills": "./skills/",
+  "version": "0.21.1+bundle.e1719af09bc1f5647a6db18f428c3f39",
+  "extensions": {
+    "com.openai": {
+      "review": {
+        "prompts": [
+          "Исправь этот SRT для формата 16:9.",
+          "Адаптируй эти субтитры для вертикального видео 9:16.",
+          "Проверь SRT на ошибки для формата 1:1."
+        ],
+        "commerce": false,
+        "commerce_description": "The plugin is free and does not sell products or process payments."
+      },
+      "publication": {
+        "countries": [],
+        "release_notes": "Initial public release of the SRT repair, editing and adaptation skill."
+      }
+    }
+  }
+}
